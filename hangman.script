@@ -1,0 +1,253 @@
+Benjamin Wilson & Katerina Bonilla
+Prelab 0
+August 26, 2021
+
+
+Script started on 2021-08-26 10:57:08-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="13"]
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0[00m$ gcc -g -Wall hangman.c
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0[00m$ ./a.out[K[K[K[K[K[K[Kgcc -g -Wall hangman.c -o Hangman[1PHangmanhHangman[C[1Pangman[1Pangmanhangman[1Pangman angmanhangman[C[C[C[C[C[C
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0[00m$ ./hangman
+Welcome to Hang-Man!
+This is a two-player game.
+Player One chooses a word and Player Two has to guess the word.
+Player Two gets 6 incorrect guesses before it is game over and their Hang-Man is completed.
+Please enter a valid word of less than 100 letters: a-z or A-Z
+shirt
+[H[2J[3JPlease enter a valid letter: a-z or A-Z
+s
+Correct!
+Letters Guessed: s____
+
+Please enter a valid letter: a-z or A-Z
+o
+Incorrect!
+Letters Guessed: s____
+
+	||===== 
+	||    | 
+	||    O 
+	||      
+	||      
+	||      
+Please enter a valid letter: a-z or A-Z
+t
+Correct!
+Letters Guessed: s___t
+
+Please enter a valid letter: a-z or A-Z
+h
+Correct!
+Letters Guessed: sh__t
+
+Please enter a valid letter: a-z or A-Z
+i
+Correct!
+Letters Guessed: shi_t
+
+Please enter a valid letter: a-z or A-Z
+r
+Correct!
+Letters Guessed: shirt
+
+You got it!
+Would you like to play again? Y or N: Y
+[H[2J[3JPlease enter a valid word of less than 100 letters: a-z or A-Z
+pretty
+[H[2J[3JPlease enter a valid letter: a-z or A-Z
+e
+Correct!
+Letters Guessed: __e___
+
+Please enter a valid letter: a-z or A-Z
+s
+Incorrect!
+Letters Guessed: __e___
+
+	||===== 
+	||    | 
+	||   \O 
+	||      
+	||      
+	||      
+Please enter a valid letter: a-z or A-Z
+h a
+Incorrect!
+Letters Guessed: __e___
+
+	||===== 
+	||    | 
+	||   \O/
+	||      
+	||      
+	||      
+Please enter a valid letter: a-z or A-Z
+l
+Incorrect!
+Letters Guessed: __e___
+
+	||===== 
+	||    | 
+	||   \O/
+	||    | 
+	||      
+	||      
+Please enter a valid letter: a-z or A-Z
+p n
+Incorrect!
+Letters Guessed: __e___
+
+	||===== 
+	||    | 
+	||   \O/
+	||    | 
+	||     \
+	||      
+Please enter a valid letter: a-z or A-Z
+u
+Incorrect!
+Letters Guessed: __e___
+
+	||===== 
+	||    | 
+	||   \O/
+	||    | 
+	||   / \
+	||      
+Oh no, you ran out of guesses! Better luck next time!
+Would you like to play again? Y or N: y
+[H[2J[3JPlease enter a valid word of less than 100 letters: a-z or A-Z
+howdy
+[H[2J[3JPlease enter a valid letter: a-z or A-Z
+l
+Incorrect!
+Letters Guessed: _____
+
+	||===== 
+	||    | 
+	||   \O 
+	||      
+	||      
+	||      
+Please enter a valid letter: a-z or A-Z
+h
+Correct!
+Letters Guessed: h____
+
+Please enter a valid letter: a-z or A-Z
+e
+Incorrect!
+Letters Guessed: h____
+
+	||===== 
+	||    | 
+	||   \O/
+	||      
+	||      
+	||      
+Please enter a valid letter: a-z or A-Z
+u
+Incorrect!
+Letters Guessed: h____
+
+	||===== 
+	||    | 
+	||   \O/
+	||    | 
+	||      
+	||      
+Please enter a valid letter: a-z or A-Z
+a
+Incorrect!
+Letters Guessed: h____
+
+	||===== 
+	||    | 
+	||   \O/
+	||    | 
+	||     \
+	||      
+Please enter a valid letter: a-z or A-Z
+p
+Incorrect!
+Letters Guessed: h____
+
+	||===== 
+	||    | 
+	||   \O/
+	||    | 
+	||   / \
+	||      
+Oh no, you ran out of guesses! Better luck next time!
+Would you like to play again? Y or N: y
+[H[2J[3JPlease enter a valid word of less than 100 letters: a-z or A-Z
+water
+[H[2J[3JPlease enter a valid letter: a-z or A-Z
+e
+Correct!
+Letters Guessed: ___e_
+
+Please enter a valid letter: a-z or A-Z
+s
+Incorrect!
+Letters Guessed: ___e_
+
+	||===== 
+	||    | 
+	||   \O 
+	||      
+	||      
+	||      
+Please enter a valid letter: a-z or A-Z
+a
+Correct!
+Letters Guessed: _a_e_
+
+Please enter a valid letter: a-z or A-Z
+t
+Correct!
+Letters Guessed: _ate_
+
+Please enter a valid letter: a-z or A-Z
+r
+Correct!
+Letters Guessed: _ater
+
+Please enter a valid letter: a-z or A-Z
+l
+Incorrect!
+Letters Guessed: _ater
+
+	||===== 
+	||    | 
+	||   \O/
+	||      
+	||      
+	||      
+Please enter a valid letter: a-z or A-Z
+h
+Incorrect!
+Letters Guessed: _ater
+
+	||===== 
+	||    | 
+	||   \O/
+	||    | 
+	||      
+	||      
+Please enter a valid letter: a-z or A-Z
+c e
+Correct!
+Letters Guessed: _ater
+
+Please enter a valid letter: a-z or A-Z
+w
+Correct!
+Letters Guessed: water
+
+You got it!
+Would you like to play again? Y or N: N n
+Have a good day!
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0[00m$ exit
+exit
+
+Script done on 2021-08-26 11:08:28-06:00 [COMMAND_EXIT_CODE="0"]

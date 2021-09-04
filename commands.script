@@ -1,0 +1,35 @@
+Benjamin Wilson & Katerina Bonilla
+Prelab 0
+August 26, 2021
+
+Script started on 2021-08-26 10:43:17-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="13"]
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0[00m$ mkdir commands
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0[00m$ ls
+[0m[01;34mcommands[0m  commands.script
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0[00m$ cd commands
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0/commands[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0/commands[00m$ pwd
+/home/ben/cse113/prelab0/commands
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0/commands[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0/commands[00m$ touch benjamin2
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0/commands[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0/commands[00m$ cat [K[K[K[Kls
+benjamin2
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0/commands[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0/commands[00m$ cat benjamin2
+Whatever you want.
+
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0/commands[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0/commands[00m$ cp benjamin2
+cp: missing destination file operand after 'benjamin2'
+Try 'cp --help' for more information.
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0/commands[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0/commands[00m$ cp benjamin2 ..
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0/commands[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0/commands[00m$ cd ..
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0[00m$ ls
+benjamin2  [0m[01;34mcommands[0m  commands.script
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0[00m$ rm commands
+rm: cannot remove 'commands': Is a directory
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0[00m$ r[Krm [Kdir commands
+rmdir: failed to remove 'commands': Directory not empty
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0[00m$ rmdir -r [K[K[K[K[K[K[K -r commands
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0[00m$ ls
+benjamin2  commands.script
+]0;ben@Clover-VirtualBox: ~/cse113/prelab0[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab0[00m$ exit
+exit
+
+Script done on 2021-08-26 10:49:05-06:00 [COMMAND_EXIT_CODE="0"]
